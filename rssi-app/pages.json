@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/nav/nav",
+			"style": {
+				"navigationBarTitleText": "导航"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/tool/tool",
+			"style": {
+				"navigationBarTitleText": "测算工具"
+			}
+		},
+		{
+			"path": "pages/pro1/pro1",
+			"style": {
+				"navigationBarTitleText": "算法1"
+			}
+		},
+		{
+			"path": "pages/pro2/pro2",
+			"style": {
+				"navigationBarTitleText": "算法2"
+			}
+		}
+	],
+	// "tabBar": {
+	//     "color": "#7A7E83",
+	//     "selectedColor": "#3cc51f",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	//     "list": [{
+	//         "pagePath": "pages/index/index",
+	//         "iconPath": "static/home.png",
+	//         "selectedIconPath": "static/homeA.png",
+	//         "text": "首页"
+	//     }, {
+	//         "pagePath": "pages/pro1/pro1",
+	//         "iconPath": "static/suanfa.png",
+	//         "selectedIconPath": "static/suanfaA.png",
+	//         "text": "算法1"
+	//     },
+	// 	{
+	// 	    "pagePath": "pages/pro2/pro2",
+	// 	    "iconPath": "static/suanfa.png",
+	// 	    "selectedIconPath": "static/suanfaA.png",
+	// 	    "text": "算法2"
+	// 	}]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

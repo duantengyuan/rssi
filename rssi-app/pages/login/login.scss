@@ -1,0 +1,111 @@
+	.content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+		.imgbg{
+			position: absolute;
+			z-index: 0;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+		}
+		.registerCard{
+			position: absolute;
+			box-sizing: border-box;
+			padding: 20px;
+			z-index: 9;
+			width: 100%;
+			// height: 100%;
+			height: calc(100% - 44px);
+			left: 0;
+			top: 44px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			.card{
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				box-sizing: border-box;
+				image{
+					width: 100px;
+					height: 100px;
+				}
+			}
+		}
+		.loginCont{
+			box-sizing: border-box;
+			width: 100%;
+			position: relative;
+			z-index: 6;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			box-sizing: border-box;
+			image{
+				width: 100px;
+				height: 100px;
+			}
+		}
+		.inputList{
+			margin-top: 30px;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			input{
+				margin-bottom: 20px;
+				width: 80%;
+				border-bottom: 2px solid #b4ffea;
+				color: #000158;
+				font-size: 20px;
+			}
+			.uni-input-input, .uni-input-placeholder{
+				color: #000158;
+				font-weight: bold;
+			}
+		}
+		.btnlist{
+			box-sizing: border-box;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 20px auto 0px;
+			.msg{
+				height: 18px;
+				width: 100%;
+				line-height: 18px;
+				color: #f00;
+				font-size: 12px;
+			}
+			.btn{
+				font-size: 18px;
+				color:#fff;
+				width:  100%;
+				height: 40px;
+				text-align: center;
+				border-radius: 6px;
+				line-height: 40px;
+				background-color: #1296db;
+				margin: 10px auto;
+				&:active{
+					background-color: #0c39db;
+				}
+			}
+			.stopBtn{
+				background-color: red;
+			}
+		}
+	}

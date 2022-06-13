@@ -1,0 +1,157 @@
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+		position: relative;
+		.houseCard{
+			position: fixed;
+			box-sizing: border-box;
+			width: 100%;
+			z-index: 9;
+			height: 100%;
+			left: 0;
+			top: 0;
+			background-color: #fff;
+			.card{
+				box-sizing: border-box;
+				width: 100%;
+				height: 100%;
+				background-color: #fff;
+				position: relative;
+				padding: 60px 20px 0px;
+				.dataCont{
+					margin-top: 40px;
+				}
+				.close{
+					box-sizing: border-box;
+					margin: 40px auto 0px;
+					font-size: 18px;
+					color:#fff;
+					width: 100%;
+					height: 40px;
+					text-align: center;
+					border-radius: 6px;
+					line-height: 40px;
+					background-color: #179415;
+					&:active{
+						background-color: #148612;
+					}
+				}
+				.house{
+					box-sizing: border-box;
+					width: 234px;
+					height: 288px;
+					position: relative;
+					img{
+						position: absolute;
+						z-index: 1;
+						display: block;
+						width: 100%;
+						height: 100%;
+					}
+					.ap{
+						width: 2px;
+						height: 2px;
+						background-color: #00aaff;
+						position: absolute;
+						z-index: 9;
+						white-space: nowrap;
+						font-size: 12px;
+					}
+					.ap1{
+						left: 0;
+						top: 0;
+					}
+					.ap2{
+						right: 0;
+						top: 0;
+					}
+					.ap3{
+						left: 0;
+						bottom: 0;
+					}
+					.ap4{
+						right: 0;
+						bottom: 0;
+					}
+					.people{
+						position: absolute;
+						z-index: 9;
+						width: 1px;
+						height: 1px;
+						.cont{
+							position: relative;
+							width: 100%;
+							height: 100%;
+							.icon{
+								position: absolute;
+								bottom: -1px;
+								width: 20px;
+								left: -9px;
+								height: 22px;
+								background: url('../../static/set.png') no-repeat;
+								background-size: 100% 100%;
+							}
+							.ttt{
+								white-space: nowrap;
+								font-size: 12px;
+							}	
+						}
+					}
+				}
+			}
+		}
+		.btnlist{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 0px auto;
+			.btn{
+				font-size: 18px;
+				color:#fff;
+				width:  100%;
+				height: 40px;
+				text-align: center;
+				border-radius: 6px;
+				line-height: 40px;
+				background-color: #179415;
+				margin: 10px auto;
+				&:active{
+					background-color: #148612;
+				}
+			}
+		}
+		.msg{
+			color: red;
+			font-size: 12px;
+			height: 20px;
+			margin-top: 30px;
+		}
+		.inputList{
+			width: 100%;
+			height: calc(50vh - 20px);
+			input{
+				margin-bottom: 20px;
+				border-bottom: 1px solid #22292C;
+			}
+			.showHouseBtn{
+				font-size: 18px;
+				color:#fff;
+				width:  100%;
+				height: 40px;
+				text-align: center;
+				border-radius: 6px;
+				line-height: 40px;
+				background-color: #179415;
+				margin: 10px auto;
+				&:active{
+					background-color: #148612;
+				}
+			}
+		}
+	}

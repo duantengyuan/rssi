@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/nav/nav",
+    "pages/login/login",
+    "pages/about/about",
+    "pages/tool/tool",
+    "pages/pro1/pro1",
+    "pages/pro2/pro2"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "室内定位测试版",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {}
+}

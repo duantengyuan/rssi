@@ -1,0 +1,98 @@
+	.content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		padding: 20px;
+		box-sizing: border-box;
+		.rssiCont{
+			width: 100%;
+			height: 50vh;
+			overflow: hidden;
+			border:1px solid #22292C;
+			.rssiOnce{
+				.title{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					background-color: #22292C;
+					color: #fff;
+					font-size: 12px;
+				}
+				.txt{
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					position: relative;
+					.clear{
+						position: absolute;
+						padding: 0px 14px;
+						right: 0;
+						top: 0;
+						height: 100%;
+						font-size: 12px;
+						color: #fff;
+						background-color: #aa0000;
+					}
+				}
+			}
+			.rssiList{
+				.title{
+					width: 100%;
+					height: 30px;
+					line-height: 30px;
+					text-align: center;
+					background-color: #22292C;
+					color: #fff;
+					font-size: 12px;
+				}
+				.txt{
+					padding: 10px;
+					padding-top: 20px;
+					font-size: 12px;
+					display: flex;
+					flex-wrap: wrap;
+					position: relative;
+					span{
+						margin-right: 8px;
+					}
+					.clear{
+						position: absolute;
+						padding: 0px 4px;
+						right: 0;
+						top: 0;
+						height: 18px;
+						font-size: 12px;
+						color: #fff;
+						background-color: #aa0000;
+					}
+				}
+			}
+		}
+		.btnlist{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 20px auto 0px;
+			.btn{
+				font-size: 18px;
+				color:#fff;
+				width:  100%;
+				height: 40px;
+				text-align: center;
+				border-radius: 6px;
+				line-height: 40px;
+				background-color: #179415;
+				margin: 10px auto;
+				&:active{
+					background-color: #148612;
+				}
+			}
+			.stopBtn{
+				background-color: red;
+			}
+		}
+	}
